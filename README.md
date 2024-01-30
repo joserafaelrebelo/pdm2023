@@ -6,6 +6,13 @@ Alguns experimentos em forma de Jupyter Notebooks também estão inclusos, além
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+
+## :cloud: Arquitetura de Dados na GCP
+![Data Architecture Diagram](../pdm2023/docs/data_architecture_diagram.png)
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
 <!-- CREDITS -->
 ## :scroll: Credits
 
