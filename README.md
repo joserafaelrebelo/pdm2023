@@ -6,7 +6,28 @@ Alguns experimentos em forma de Jupyter Notebooks também estão inclusos, além
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+## Docker Experiment Container
+No diretório `docker` podem ser encontrados alguns arquivos para criação de um container para execução dos experimentos de forma local
 
+Dependências:
+- docker
+- docker-compose
+- nvidia-container-toolkit
+
+### Utilização
+
+Para construir a imagem basta:
+```bash
+cd docker && \
+docker build -t pdm2023-notebook:1.0 .
+```
+
+Após isso podemos executar o servidor do Jupyter Lab através do compose:
+```bash
+cd docker && \
+docker compose up
+```
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ## :cloud: Arquitetura de Dados na GCP
 ![Data Architecture Diagram](docs/data_architecture_diagram.png)
 
