@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  pdm2023:
+    container_name: pdm2023-notebook-container
+    image: pdm2023-notebook:1.0
+    runtime: nvidia
+    network_mode: "host"
