@@ -1,0 +1,3 @@
+[submodule "daily-scrapper"]
+	path = daily-scrapper
+	url = https://github.com/joserafaelrebelo/pdm2023-data-scrapper.git
